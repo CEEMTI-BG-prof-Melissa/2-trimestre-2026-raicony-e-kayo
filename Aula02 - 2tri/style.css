@@ -1,3 +1,4 @@
+
 a{
   color: red;
 }
@@ -8,7 +9,7 @@ a:visited{
     color: blue;
 }
 a:focus{
-    border: 12px solid red;
+    border: 5px solid red;
 }
 li:first-child{
     font-weight: bold;
@@ -21,4 +22,28 @@ li:nth-child(odd){
 }
 li:nth-child(even){
     background-color: lightblue;
+}
+input:required{
+    border: 5px solid green;
+}
+textarea:required{
+    border: 5px solid green;
+}
+input[required]:focus{
+    color: red;
+}
+input[type="email"]:valid{
+    border-color:lightgreen;
+}
+input[type="email"]:invalid{
+    border-color:red;
+}
+label:has(input[type="checkbox"]:checked){
+    color:red;
+}
+li+:not(first-child){
+    color:red;
+}
+h1:is(h1, h2, h3){
+    color:red;
 }
