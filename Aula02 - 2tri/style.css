@@ -35,6 +35,9 @@ input[type="email"]:valid{
 input[required]:focus{
   color: blue;
 }
+textarea[required]:focus{
+  color: green;
+}
 input[type="email"]:invalid{
     border-color:red;
 }
