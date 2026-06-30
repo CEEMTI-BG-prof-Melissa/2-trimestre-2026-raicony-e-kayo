@@ -29,12 +29,6 @@ input:required{
 textarea:required{
     border: 5px solid green;
 }
-input[required]:focus{
-    color: red;
-}
-textarea[required]:focus{
-    color: red;
-}
 input[type="email"]:valid{
     border-color:lightgreen;
 }
