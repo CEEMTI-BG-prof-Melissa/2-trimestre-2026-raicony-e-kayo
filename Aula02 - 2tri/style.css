@@ -32,6 +32,9 @@ textarea:required{
 input[type="email"]:valid{
     border-color:lightgreen;
 }
+input[required]:focus{
+  color: blue;
+}
 input[type="email"]:invalid{
     border-color:red;
 }
