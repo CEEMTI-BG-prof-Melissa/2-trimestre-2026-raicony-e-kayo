@@ -1,0 +1,26 @@
+h1::before{
+    content:"🤴";
+}
+.bio::after{
+    content: "🧠";
+}
+.bio::first-letter{
+    font-size: 45px;
+    color:red;
+}
+p::first-line{
+    font-weight: bold;
+    font-family: Arial;
+}
+::selection{
+    background-color: lightblue;
+    color:red;
+}
+input[placeholder="Digite seu nome"]{
+    font-style: italic;
+    color:lightgray;
+}
+li::marker{
+    color:red;
+    font-size: 24px;
+}
